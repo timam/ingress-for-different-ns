@@ -3,7 +3,7 @@ module "api" {
   env       = "sit"
   namespace = "noing"
   replicas  = 1
-  microservice_name = "sit-whatismyip-api"
+  microservice_name = "whatismyip-api"
   health_check_path = "/"
   docker_image      = "timam/whatismyip-api"
   docker_image_tag  = "v1"
