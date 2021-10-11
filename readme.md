@@ -1,0 +1,1 @@
+curl http://whatismyip-api.noing.svc.cluster.local:8080
