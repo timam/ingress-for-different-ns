@@ -1,7 +1,7 @@
 module "api" {
   source    = "../modules/deployment"
-  env       = sit
-  namespace = noing
+  env       = "sit"
+  namespace = "noing"
   replicas  = 1
   microservice_name = "sit-whatismyip-api"
   health_check_path = "/"
